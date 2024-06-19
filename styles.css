@@ -28,7 +28,7 @@ header {
 
   background-repeat: no-repeat; /* Evita que a imagem se repita */
   color: white; /* Define a cor do texto como branca para contraste */
-  padding: 120px 240px 120px 120px;
+  padding: 120px 0px;
   background-color:rgb(120, 120, 120);
   background-blend-mode: multiply;
   height: 55vh;
