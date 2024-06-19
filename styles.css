@@ -32,9 +32,9 @@ header {
   background-color:rgb(120, 120, 120);
   background-blend-mode: multiply;
   height: 55vh;
-  align-items: right;
-  justify-content: right;
-  text-align: right;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .map {
@@ -44,7 +44,7 @@ header {
   background-position: top center; /* Centraliza a imagem */
   background-repeat: no-repeat; /* Evita que a imagem se repita */
   color: white; /* Define a cor do texto como branca para contraste */
-  background-color: #081122;
+  background-color: #555;
   background-blend-mode: multiply;
   height: 70vh;
   align-items: left;
