@@ -37,6 +37,10 @@ header {
   text-align: center;
 }
 
+.header div {
+width: 60%;
+}
+
 .map {
   font-family: Poppins;
   background-image: url(imagens/map.jpg);
@@ -106,6 +110,10 @@ header {
   margin: 10px;
   padding: 20px 20px 20px 120px;
   max-height: 100%; /* Limita a altura máxima à altura do contêiner pai */
+}
+
+.coluna1 h2{
+  text-align: right;
 }
 
 .coluna2 {
@@ -410,6 +418,10 @@ color: #BA7A4C;
       font-size: small;
       padding: 80px 10px;
     }
+
+    .header div {
+      width: 100%;
+    }
     
     .map {
       background-position: top; /* Centraliza a imagem */
@@ -439,6 +451,10 @@ color: #BA7A4C;
       margin: 10px;
       padding: 0px;
       max-height: 100%; /* Limita a altura máxima à altura do contêiner pai */
+    }
+
+    .coluna1 h2 {
+      text-align: left;
     }
 
     .coluna2 {
