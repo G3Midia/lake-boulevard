@@ -1,4 +1,3 @@
-
 // MOSTRAR BLOCO 1 DA ÁREA DE LAZER
 function toggleContent() {
   const conteudo = document.getElementById('conteudo');
@@ -14,6 +13,7 @@ function toggleContent3() {
   const conteudo = document.getElementById('conteudo3');
   conteudo.classList.toggle('mostrar');
 }
+
 //CARROSSEL
 document.addEventListener('DOMContentLoaded', function() {
   window.carousel = new Swipe(document.getElementById('carousel'), {
@@ -94,3 +94,18 @@ req.on('error', error => {
 
 req.write(data);
 req.end();
+
+//CARROSSEL DIFERENCIAIS
+document.addEventListener('DOMContentLoaded', function() {
+  window.carousel = new Swipe(document.getElementById('carousel'), {
+      startSlide: 0,
+      speed: 400,
+      auto: 3000,
+      draggable: true,
+      continuous: true,
+      disableScroll: false,
+      stopPropagation: false,
+      callback: function(index, elem) {},
+      transitionEnd: function(index, elem) {}
+  });
+});
