@@ -38,13 +38,58 @@ src="https://www.facebook.com/tr?id=PIXEL_ID&ev=PageView&noscript=1"
 
   </head>
   <body>
-    <header>
-      <div class="headerdiv">
-   <h2> O PRIVILÉGIO DE VIVER BEM</h2>
-   <p>Oportunidade de morar ou investir em um condomínio cercado de facilidades e segurança, planejado e localizado em uma região em pleno crescimento</p>
-   <button id="scrollButton" class="tipo1">RECEBER TODOS OS DETALHES</button>
+    <header class="header">
+      <div class="headercontent">
+        <img class="logo" src="imagens/logo.png">
+   <h2 style="font-family: 'calibri'; color: #081122;">MUITO MAIS QUE UM IMÓVEL</h2>
+   <p style="font-family: 'calibri'; font-size: 25px;">surpreendente, contemporâneo, completo e atende toda a família.</p>
+   <button id="scrollButton" class="tipo2">RECEBER TODOS OS DETALHES</button>
     </div>
+    <img class="mobileimage" src="imagens/headermobile.png">
     </header>
+
+<!--CARROSSEL DE IMAGENS-->
+<section class="diferenciais">
+  <h1 style="margin: 0px 30px;">Por que o Lake Boulevard é a melhor opção de Apartamento em Porto Velho</h1>
+  <p>Arrasta pro lado e descubra →</p>
+  <div class="owl-carousel owl-theme">
+    <div class="item"><img src="imagens/slide1.jpg" alt="Imagem 1"></div>
+    <div class="item"><img src="imagens/slide2.jpg" alt="Imagem 2"></div>
+    <div class="item"><img src="imagens/slide3.jpg" alt="Imagem 3"></div>
+    <div class="item"><img src="imagens/slide4.jpg" alt="Imagem 4"></div>
+    <div class="item"><img src="imagens/slide5.jpg" alt="Imagem 5"></div>
+    <div class="item"><img src="imagens/slide6.jpg" alt="Imagem 6"></div>
+    <div class="item"><img src="imagens/slide7.jpg" alt="Imagem 7"></div>
+    <div class="item"><img src="imagens/slide8.jpg" alt="Imagem 8"></div>
+    <div class="item"><img src="imagens/slide9.jpg" alt="Imagem 9"></div>
+  </div>
+</section>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 0,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+    });
+</script>
+<!--GALERIA COM TEXTO-->
     <section class="colunas" id="galeria">
       <div class="coluna1">
       <h1 style="color: #16abe3;">Receba Acesso a todas as imagens</h2>
@@ -136,19 +181,19 @@ e muito mais...</p>
   <div class="valoresdiv">
     <div class="valorescol">
       <p><b>Valores</b><br>a partir de</p>
-      <p class="preço" style="font-weight: bold; font-size: 25px; margin: 3px; color: #16abe3;">R$ 478.018</p>
+      <p class="preço" style="font-weight: bold; font-size: 1.4rem; margin: 3px; color: #16abe3;">R$ 478.018</p>
     </div>
     <div class="valorescol">
       <p><b>30% negociado</b><br>pela construtora em até</p>
-      <p class="preço" style="font-weight: bold; font-size: 25px; margin: 3px; color: #16abe3;">30x</p>
+      <p class="preço" style="font-weight: bold; font-size: 1.4rem; margin: 3px; color: #16abe3;">30x</p>
     </div>
     <div class="valorescol">
       <p><b>Sinal</b><br>a partir de</p>
-      <p class="preço" style="font-weight: bold; font-size: 25px; margin: 3px; color: #16abe3;">R$ 11.950,43</p>
+      <p class="preço" style="font-weight: bold; font-size: 1.4rem; margin: 3px; color: #16abe3;">R$ 11.950,43</p>
     </div>
  </section>
   <section id="cadastro">
-    <h2 style="color: white;">Cadastre-se para mais detalhes!</h2>
+    <h2 style="color: white; font-family: 'calibri';">Cadastre-se para mais detalhes!</h2>
     <p style="color: white;">Preparamos um material completo com todas as imagens e informações deste apartamento.<br>
     Cadastre-se agora para receber o material completo!</p>
     <div class="cadastrodiv1">
@@ -176,7 +221,7 @@ e muito mais...</p>
   </section>
   <footer>
     <div class="first-section">
-        <img src="imagens/dp.png" alt="Logo" style="width: 100px; margin: 30px;">
+        <img src="imagens/imoblogo.png" alt="Logo" style="width: 100px; margin: 30px;">
     </div>
     <div class="second-section">
         &copy; 2024 Realize Imóveis - Lake Boulevard. Todos os direitos reservados.
