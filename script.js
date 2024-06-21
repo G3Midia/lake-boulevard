@@ -68,7 +68,7 @@ const data = JSON.stringify({
 
 const options = {
   hostname: 'graph.facebook.com',
-  path: `/v11.0/PIXEL_ID/events?access_token=ACESS_TOKEN`, // Substitua 'SEU_PIXEL_ID' e 'SEU_ACCESS_TOKEN'
+  path: `/v11.0/851786913671752/events?access_token=EAAMHvwm4ftwBO1aY1XZBrZA9c5EmDHSLmYaSNOMK9JI7l23pynZCXVxCjK6lR2IuQJJjPUGaemuHcvlFzPZATbhLXsU7IVErvPA1tjHQZAHn28dZBcqv8XpUFDqQAZBQwqohDKx0cmAfSTUbQuLwJdzHJ8SQtbF30fIjv8RtAbnlDWzPqq1rCHJqKkZBIhicdZAW3UAZDZD`, // Substitua 'SEU_PIXEL_ID' e 'SEU_ACCESS_TOKEN'
   method: 'POST',
   headers: {
     'Content-Type': 'application/json',
