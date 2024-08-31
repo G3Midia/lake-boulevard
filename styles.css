@@ -24,6 +24,10 @@ body h1 {
   font-family: 'calibri';
 }
 
+h2 {
+  font-size: xx-large;
+}
+
 body p {
   font-family: 'calibri';
 }
@@ -47,7 +51,7 @@ body p {
         background-position: bottom;
         justify-content: flex-start;
         box-sizing: border-box;
-        padding: 40px 0px
+        padding: 40px 0px 90vh 0px;
     }
 }
 
@@ -62,7 +66,7 @@ body p {
 
     @media (max-width: 768px) {
       width: 100%;
-      padding: 0px 10%
+      padding: 0px 10%;
     }
 }
 
@@ -76,9 +80,12 @@ body p {
 
 .mobileimage {
   display: none;
+  padding: 0px;
+  margin: 0px;
   @media (max-width: 768px){
     display: block;
     width: 100%;
+    height: auto;
   }
 
 .item {
@@ -136,6 +143,7 @@ body p {
   width: 100%; /* Opcional: Pode definir uma largura específica */
   background-color: transparent; /* Define como transparente, mas pode ter cor */
 }
+
 
 /*CONDIÇÕES --------------------------------------------------------------------------------------------------------------------------*/
 .condicoes {
